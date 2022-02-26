@@ -1,0 +1,389 @@
+@font-face {
+    font-family: Swissra;
+    src: url("../resources/Swissra-Normal\ _.ttf");
+ }
+
+
+:root{
+    --nav:#BDB3CE;
+    --textNav: #360D53;
+    --lightSection: #FBF5FF;
+    --header:#A731FC;
+    --pinkSection:#FDECF7;
+    --yellow: #FFA800;
+    --lightpurple :#9B89B9;
+    --red: #960D5F;
+    --dark: #251D04;
+    --purple: #846CAC;
+}
+/* NavBar */
+nav{
+    padding-left: 3%;
+    padding-right: 3%;
+    font-family: Swissra;
+}
+.top-nav {
+    background-color: var(--nav) !important;
+}
+.second-nav{
+    background-color: var(--lightSection) !important;
+    padding-left: 5%;
+}
+.nav-link {
+    color: var(--textNav) !important;
+}
+/* Header */
+header {
+    background-color: var(--lightSection) !important;
+    max-height: 115vh;
+    text-align: center;
+    padding-left: 10%;
+}
+.PMP {
+    font-size: 1.1em;
+    font-family: Swissra;
+    margin-top: 22%;
+    margin-bottom: 6%;
+    font-weight:bold;
+}
+.PMP h3 {
+   color: var(--header);
+   margin-top: 6%;
+   font-weight:bold;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.PMP h4 {
+    color: var(--header);
+    margin-top: 6%; 
+    font-size: 1.1em;
+}
+.PMP p{
+    margin-top: 5%;
+}
+.Text-Image img{
+    width: 100%;
+    margin-top: 4%;
+}
+.PMP-Image {
+    overflow: hidden;
+}
+  
+.PMP-Image img {
+    width: 98%;
+    height: 100%;
+    margin-left: 18%;
+}
+@media screen and (max-width: 990px) {
+    .PMP-Image img {
+        margin-top: 10%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .PMP-Image img {
+        display: none;
+    }
+}
+
+/********* Instructor Info **********/
+.Instructor-Info {
+    background-color: var(--pinkSection) !important;
+    max-height: 100vh;
+    text-align: center;
+    padding-top: 6%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.instructor-info {
+    font-size: 1em;
+    font-family: Swissra;
+}
+.instructor-info h1 {
+   color: var(--yellow);
+   font-size: 2.9em;
+   font-weight:bold;
+}
+
+.instructor-info h2 {
+    color: var(--header);
+    margin-top: 10%; 
+    font-size: 1.6em;
+    font-weight: bold;
+}
+.instructor-info p{
+    font-size: 1em;
+    margin-top: 4%;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.Instructor-Img img {
+    width: 80%;
+    height: 80%;
+}
+.youtube-Image img{
+    width: 80%;
+    margin-top: 5%;
+}
+.arrow {
+    margin-top: 4%; 
+    margin-left: 5%;
+    width: 30%;
+}
+.arrow img{
+    width: 18%;
+    z-index: 2;
+}
+/* On screens that are 765px or less, set the background color to olive */
+@media screen and (max-width: 890px) {
+    .Instructor-Info {
+      font-size: .8em;
+      max-height: 120vh;
+    }
+    .Instructor-Info img {
+        width: 50%;
+    }
+    .arrow {
+        width: 12%;
+        margin-top: 5%;
+    }
+  }
+  
+/****** Courses & Programs ********/
+.courses-programs {
+    background-color: var(--lightSection) !important;
+    height: 95vh;
+    text-align: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-family: Swissra;
+}
+.courses {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 2%;
+    background-color: var(--nav) !important;
+}
+.courses h1 {
+    color: var(--header);
+    font-size: 2rem;
+    float: right;
+    margin-bottom: 3%;
+    margin-right: 1%;
+    font-weight: bold;
+}
+.courses .card {
+    background-color: var(--pinkSection) !important;
+}
+.courses .img-fluid{
+    padding: 5%;
+    border-radius: 1em;
+}
+.card h6 {
+    font-weight: bold;
+    color: var(--header);
+    float: right !important;
+}
+.seen {
+    float: left;
+    font-size: .8rem !important;
+}
+.seen-num {
+    color: var(--lightpurple);
+    font-family:'Times New Roman', Times, serif;
+}
+.courses .card .seen-img {
+    width: 20%;
+}
+
+.read-more {
+   font-size: .7rem;
+}
+.course-info {
+   float: right;
+}
+.more {
+    float: left;
+}
+.courses .card a {
+    text-decoration: none;
+    color: var(--lightpurple);
+}
+
+@media screen and (max-width: 600px) {
+    .courses-programs{
+        height: max-content !important;
+    }
+    .course{
+        height: max-content;
+    }
+    .courses .card {
+        margin: 2%;
+    }
+}
+/***** المقالات *****/
+.Articles {
+    padding: 3.2em;
+    font-family: Swissra;
+    background-color: var(--yellow);
+    max-height: 115vh;
+}
+.Articles h2{
+    color: white;
+    margin-bottom: 4%;
+    margin-right: 2.4em;
+    text-align: right;
+}
+.Articles .card {
+    background-color: var(--pinkSection);
+}
+.Articles img {
+    padding: 5%;
+    width:100%;
+}
+
+.Articles .card .seen-img {
+    width: 35%;
+}
+
+.btn.more {
+    float: left;
+    border-radius: 50px;
+    border: var(--header) 1 solid;
+    font-size: .8em;
+    background-color: var(--header);
+    color: white;
+    padding: 1% 14% 1% 14%;
+}
+.seen-article {
+    float: right;
+    margin-left: 4%;
+}
+.Articles .card-title {
+    color: var(--header);
+    float: right;
+}
+.Articles .card-text {
+    float: right;
+}
+.text-more {
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width: 770px) {
+    .Articles {
+        max-height: max-content;
+    }}
+/********* Free Lecture **********/
+.Free-lecture{
+    background-color: var(--lightSection);
+    padding-top: 8%;
+    padding-bottom: 6%;
+}
+
+.Free-lecture .card {
+    background-color: var(--nav);
+    padding-top : 3%;
+    padding-bottom: 3%;
+    padding-left: 6%;
+}
+.Free-lecture .card-body{
+    font-family: Swissra;
+    margin-top: 2%;
+    text-align: center;
+}
+.Free-lecture img{
+    width: 100%;
+}
+.Free-lecture h2{
+    font-size: 2.4em;
+    font-weight: bold;
+    color: var(--red);
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+.Free-lecture p{
+    margin-right: 16%;
+    margin-left: 12%;
+    text-align: right;
+    color: var(--dark);
+    display: inline-block;
+}
+
+.btn.free {
+    border-radius: 12px;
+    border: var(--purple) 1 solid;
+    font-size: 1.1em;
+    background-color: var(--purple);
+    color: white;
+    padding: 2% 7% 2% 7%;
+}
+
+ .Free-lecture .text-more {
+     color: var(--purple);
+     float: left;
+     padding-left: 5%;
+     padding-top: 2%;
+     font-size: .8em;
+ }
+
+ @media screen and (max-width: 585px) {
+   .Free-lecture .img-fluid{
+        width: 95%;
+   }
+   .Free-lecture h2{
+       font-size: 1.8em;
+   }
+ }
+ /******* Footer **********/
+ footer{
+    background-color: var(--purple);
+    font-family:Swissra ;
+ }
+ footer a{
+     text-align: right;
+ }
+ .footer-content{
+     text-align: right;
+ }
+ .footer-content p{
+     font-size: .8em;
+     padding-left: 10%;
+}
+
+footer .footer-menu li {
+      display: inline-block; }
+     
+@media (max-width: 767.98px) {
+    footer .footer-menu li {
+        display: block; } 
+    }
+
+footer .footer-menu li a {
+    padding: 10px;
+    display: inline-block;
+    color: #fff; 
+    text-decoration: none;
+}
+
+@media (max-width: 767.98px) {
+    footer .footer-menu li a {
+        display: block;
+        padding-left: 0px;
+     } }
+
+footer .site-wrap {
+font-size: 1em; 
+float: right;
+}
+footer .site{
+color: #fff;
+display: inline-block;
+text-decoration: none;
+text-align: right;
+}
+footer .contact-img {
+    width: 88%;
+    padding-top: 8%;
+    float: right;
+}
