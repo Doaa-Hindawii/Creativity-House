@@ -1,5 +1,5 @@
 # Creativity-House
-It's a Responsive webpage for training website.
+It's a Responsive webpage for a training website.
 
 #### Created with HTML5, CSS3, BootStrap.
 - Clean Code.
